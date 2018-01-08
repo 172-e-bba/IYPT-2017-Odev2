@@ -23,65 +23,46 @@ Daha kapsamlı bir ödev için daha önce yapılmış
 ## Aşağıdaki Başlıkları İçini Doldurunuz. (Özet kısmını daha önce yazmıştınız.) 
 
 # Özet (Abstract)
-Buraya Ödev-1'de yazdığınız özeti yazınız. 
+Sıcak sıvının soğuk sıvıya göre daha hızlı soğumasına Mpemba etkisi denir.Bu projede amacımız Mpemba etkisinin deney ve gözlem yoluyla incelemek ve etkiyen parametrelerin test etmektir. Bunun için arduino sıcaklık kontrollü deneyler yapılacaktır. Deneylerde farklı kriterlerdeki sıvıların soğuma süreleri karşılaştırıldığında hangi faktörlerin bu sürede etkili olduğu bulunmaya çalışılacaktır. Deneyde test edilecek parametreler aşağıda sıralanmıştır:
+-Sıvının Cinsi:Özellikle sıvının öz kütlesi ve buharlaşma öz ısısının Mpemba etkisindeki rolü incelenecektir
+-Sıvının Kütlesi
+-Kabın Kesit Alanı
+-Kabın Açık veya Kapalı Olma Durumu
+-Sıvı İçi Gaz:Sıvının içinde gaz çözünüp çözünmemesinin, çözündüyse gazın miktarı ve cinsinin Mpemba etkisindeki rolüne bakılacaktır.
+-Sıvının Konveksiyonel Akımı:a<n<b olmak üzere a santigrat dereceden n santigrat dereceye ısıtılmış sıvı ve b santigrat dereceden n santigrat dereceye soğutulmuş 2 sıvı üzerinde Mpemba etkisinin incelenmesi.
+Tüm bu parametrelerin sınanabilmesi için biri deney biri kontrol olmak üzere 2 grup üzerinde kontrollü deneyler yapılacaktır.Sıvılar soğutulurken içlerine koyulacak olan ısı sensörleri arduina'ya bağlanacak ve bu sayede hem belirli aralıkla soğuttular sıvıların sıcaklık değerleri okunabilecek hem de proje daha bilimsel hale gelecektir.
+Kaynakçalar
+Yabaş,M."Mpemba Etkisi: Sıcak su soğuk sudan daha önce donar"
+https://www.fizikist.com/mpemba-etkisi-sicak-su-soguk-sudan-daha-once-donar/
+Son erişim tarihi:24 Ekim 2017
+Türkay,K. "Mpemba etkisi ve bilinmeyenleri"
+https://www.gzt.com/hayat/mpemba-etkisi-ve-bilinmeyenleri-2596750
+Son erişim tarihi:25 Ekim 2017
+Elhan,A. "Neden Sıcak Su Soğuk Sudan Daha Hızlı Donar?—Fizikçiler Mpemba Etkisini Çözdüler"
+https://medium.com/turkce/nedens-cak-su-so-uk-sudan-daha-h-zl-donar-fizikciler-mpemba-etkisini-cozduler-1db1be97ae9b
+Son erişim tarihi:21 Ekim 2017
+Cornell University."O:H-O Bond Anomalous Relaxation Resolving Mpemba Paradox"
+https://arxiv.org/abs/1310.6514
+Son erişim tarihi:16 Ekim 2017
+Cornell University."A search for the Mpemba effect: When hot water freezes faster then cold water"
+https://arxiv.org/abs/1003.3185
+Son erişim tarihi:16 Ekim 2017
 # Giriş (Introduction)
-Bu bölüm; 
-literatür
-taramasından sonra araştırmanın amacı, problem  ve alt problemler, hipotezler ve alt 
-hipotezler, varsayımlar (
-yapılan kabuller
-), sınırlılıklar, tanımlar alt başlıklarına yer verilecek olan bölümdür. 
-Bu bölümde
-literatür
-araştırması yaparken ve çalışmanızı desteklemek üzere alıntı yaparken proje çalışmanızın 
-konusu ile ilgili başkalarının yaptığı çalışmalardan söz ediniz. Sizin çalışmanızın 
-diğer 
-benzer çalışmalardan ayrılan 
-yönlerini belirtiniz. Bu çalışmayı, 
-literatürde
-ki 
-hangi boşluğu doldurmak için yaptığınızı ve 
-literatürde
-yer  alan 
-benzer çalışmalardan neyi nasıl farklı yapacağınızı açıklayınız. Benzer çalışmalardan nasıl yararlandığınızı ve sizin 
-çalışmanızın neleri hedeflediğini açıklayınız. Bu bölümde kaynakça gösterimi yapınız. 
+Deneylerimizdeki temel amaç Mpemba etkisinde rol alan parametreleri bulmak ve ne derecede nasıl etkilediğini tespit etmektir.Bunun için deneylere başlamadan önce bütün deneylerimizi planladık ve yol haritamızı çıkardık.Genel bir yapı çıkardıktan sonra daha önce yapılan deneyleri inceledik ve neler nasıl yapılmış,eksikleri nelermiş gibi sorularımıza cevap bularak deneyimizde hata payını en aza indirmeye çalıştık.
 # Materyal ve Yöntem (Experimental Setup)
-
-Bu bölümde aşağıdaki kısımla
-ra ve alt başlıklara yer verilir
-
-* Çalışmanın yöntemi veya araştırma deseni,
-* Çalışma  grubunuz,  evreniniz,  örnekleminiz 
-(çalışmanızda  kişilerden  veri  toplamışsanız),  çalışma 
-sahanız, yeriniz ve bunların özellikleri,
-* Veri toplama araçlarınızın neler olduğu, onları  siz geliştirdiyseniz bunu nasıl yaptığınız ve  veri 
-toplama süreciniz,
-* Gözlemlerinizi, saha çalışmalarınızı ve bu
-nları nasıl gerçekleştirdiğiniz, verileri nasıl analiz ettiğiniz ve 
-bunun için hangi araç ya da yazılımları kullandığınız,
-* Deney düzenekleri, malzemeleri ve deneysel süreçleri (deneysel bir çalışma ise)
-
-Deneysel çalışmalarda deney düzeneği, verilerin nasıl toplandığı açıkça anlatılmalıdır. Deney düzeneğindeki 
-önemli ölçüm cihazlarının (ne olduğu, ölçüm aralığı, duyarlılığı vb.) kimyasal ve biyolojik malzemenin temel 
-özellikleri  belirtilmelidir.  
-
-Örneğin  bir voltmetre  kullanılıyorsa  bunun  ölçme  aralığı 0-220V, iç impedansı 10 Mohm olan bir voltmetre olarak belirtilmesi, ya da optik özellikleri incelenen bir cam 
-levhanın 25 mmx10 mmx1 mm boyutlarında, görünür bölgedeki ışığı geçiren bir cam plaka şeklinde tanımlanması 
-uygun olacaktır. 
-
-* Deneylerin nerede, kimler tarafından yapıldığı, ne kadar sürdüğü ve kaç kez hangi koşullar altında 
-tekrarlandığı gibi bilgilerin açık, öz ve anlaşılır bir şekilde verilmesi gerekir. Bu kısımd
-a çalışılan 
-laboratuvarın özellikleri de belirtilmelidir. 
-
-* Kullanılan analiz ve hesaplamalar bu bölümde verilmelidir.
-
+KULLANILAN MALZEMELER
+-Özdeş cam kaplar
+-Su
+-Arduino
+-Sıcaklık ölçer 
+-Kablo
+-Soğutucu
+-Dirençler
+-Breadboard
+YÖNTEM
+Deneyimizin genel amacı Mpemba etkisini gözlemlemek ve bu olaya etkiyen parametreleri ve nasıl etkilediklerini araştırmaktır.Bunun için ilk deney olarak farklı başlangıç sıcaklıklarının olay üzerine etkisini araştırdık.Bunun için oda sıcaklığında eşit miktar ve hacimlerde ve özdeş kaplardaki suları yaklaşık 20,40 ve 60 dereceye kadar ısıttık.Başlangıç sıcaklıkları yaklaşık 20,40 ve 60 derece olan eşit miktarda ve hacimde,özdeş kaplarda suları buzluğa koyup soğumaya bıraktık.Aynı anda arduino temelli sıcaklık ölçer sistemimiz de kabın sıcaklığını saniye saniye ölçüyordu.3 kaba da ayrı ayrı bu işlemi uyguladık ve arduino sıcaklık ölçer sistemimizin ölçtüğü değerleri excell'de tabloya döktük.
 # Bulgular (Results)
-Burda yaptığınız başlangıç deneyinin sonuçlarını yazacaksınız. Yapacağınız deneyinin başarılı veya başarısız olması önemli değildir. 10 Mayıs 2017'ye kadar projeyinizi geliştirmeniz için izin verilecektir. Fakat yapacağınız IYPT projeniz için bir başlangıç yapmanız gerekmektedir. Basit bir deney olsun ve çok bir zamanını almasın. Yaptığınız deneyin birkaç resmini buraya ekleyiniz ve sonuçları kısaca açıklayın. İleride deneyinizi nasıl geliştereceğinizi anlatın. 
-
-Örnek olarak, bir su birikintisi içinde yanan bir mum bir bardak ile kapatıldığında su seviyesi yükselmektedir. Bu deneyle ilgili bazı resimleri [burdan](https://www.stevespanglerscience.com/lab/experiments/why-does-the-water-rise/) bulabilirsiniz. Sizin de benzer resimler çekmeniz beklenmektedir. Her grup kendi deneyine ait resimleri çekecektir. Başka bir grubun resimleri kullanıldığı takdirde bu bir kopya girişimi olarak kabul edilecektir. 
-
-
+Deneylere başlamadan önce yaptığımız araştırmalara göre başlangıç sıcaklığı daha yüksek olan suyun 0 dereceye diğerlerinden daha kısa sürede ulaşması gerekiyordu.Ama bizim deneyimizde tam tersi bir etki görüldü.20 derecedeki su daha kısa sürede 0 dereceye ulaşırken 40 derecedeki daha geç ve en geç de 60 derecedeki su indi.Tahminlerimize göre deneyin hatalı çıkmasının sebebi sıcaklık ölçer aletin uçlarının sular soğutucuda iken cam kabın tabanına değmiş olabileceğidir.Bir diğer olası sebep de bütün suları aynı dereceye kadar ısıtıp oda sıcaklığında soğutmaya bırakmamız gerekliliğidir.
 # Sonuç ve Tartışma (Conclusion and Discussion) 
 Burasını doldurmaya görek yoktur. Daha sonraki ödevin konusun olacaktır. 
 
